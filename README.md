@@ -6,12 +6,18 @@
   <br />
 
   <div>
-<img src="https://img.shields.io/badge/-Next.js-black?style=for-the-badge&logo=Next.js&logoColor=white" />
-<img src="https://img.shields.io/badge/-Typescript-3178C6?style=for-the-badge&logo=Typescript&logoColor=white" />
+<img src="https://img.shields.io/badge/-React_Native-61DAFB?style=for-the-badge&logo=react&logoColor=white" />
+<img src="https://img.shields.io/badge/-NativeWind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
+<img src="https://img.shields.io/badge/-Expo-000020?style=for-the-badge&logo=expo&logoColor=white" /><br/>
+<img src="https://img.shields.io/badge/-Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" />
+<img src="https://img.shields.io/badge/-Express-000000?style=for-the-badge&logo=express&logoColor=white" />
+<img src="https://img.shields.io/badge/-MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" /><br/>
+<img src="https://img.shields.io/badge/-Clerk-6C47FF?style=for-the-badge&logo=clerk&logoColor=white" />
+<img src="https://img.shields.io/badge/-PostHog-F0AD4E?style=for-the-badge&logo=posthog&logoColor=white" />
+<img src="https://img.shields.io/badge/-CodeRabbit-FF5100?style=for-the-badge&logo=coderabbit&logoColor=white" />
+</div>
 
-  </div>
-
-  <h3 align="center">Project Title Here</h3>
+  <h3 align="center">Subscription Management | Mobile Appliction</h3>
 
    <div align="center">
      Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/watch?v=XUkNR-JfHwo" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
@@ -37,7 +43,7 @@ If you prefer visual learning, this is the perfect resource for you. Follow our 
 
 ## <a name="introduction">✨ Introduction</a>
 
-AI-powered Nike-style eCommerce built with Devin AI, Next.js, Drizzle ORM, and Better Auth! Devin generates your product pages, cart, and checkout flows—powered by Stripe payments and a PostgreSQL (Neon) backend. Featuring a clean, modular UI and tools tailored for devs who want to ship fast.
+Recurrly is a full-stack subscription management application designed to help users monitor and control their recurring expenses in one centralized hub. Built using a modern "Next.js-style" mobile architecture, the app features robust subscription tracking for both active and inactive charges, automated email reminders to ensure users never miss a billing date, and a custom-built native navigation system. Beyond its core utility, Recurrly is a production-ready solution integrated with a Node.js/Express/MongoDB backend, featuring Clerk-powered authentication and full monetization capabilities, all optimized for deployment on the Apple App Store and Google Play Store via EAS.
 
 If you're getting started and need assistance or face any bugs, join our active Discord community with over **50k+** members. It's a place where people help each other out.
 
@@ -45,37 +51,41 @@ If you're getting started and need assistance or face any bugs, join our active 
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
-- **[Better Auth](https://www.better-auth.com/)** is a framework-agnostic authentication and authorization library for TypeScript. It provides built-in support for email and password authentication, social sign-on (Google, GitHub, Apple, and more), and multi-factor authentication, simplifying user authentication and account management.
+### Frontend & Mobile
+* **[React Native](https://reactnative.dev/)** is a powerful framework for building native mobile applications using React. It allows for a single codebase to run on both iOS and Android while maintaining the performance and feel of a truly native app.
+* **[Expo](https://jsm.dev/nativesub-expo)** is the official framework recommended by the React Native team. It provides a robust set of tools and services—like file-based routing and EAS (Expo Application Services)—that streamline the development, building, and submission process.
+* **[TypeScript](https://www.typescriptlang.org/)** is a strongly typed programming language that builds on JavaScript. It provides static typing to catch errors early during development, improving code maintainability across the entire full-stack codebase.
+* **[NativeWind](https://www.nativewind.dev/)** allows you to style your React Native applications using **Tailwind CSS**. It brings the efficiency of utility-first CSS to mobile, enabling rapid UI development with a consistent design system.
 
-- **[Devin AI](https://docs.devin.ai/get-started/devin-intro)** is an autonomous AI software engineer by Cognition Labs that independently plans, writes, debugs, and deploys full applications from natural language prompts. It integrates with tools like Slack, Linear, and Jira to manage tasks and pull requests, and learns new technologies on the fly by reading documentation.
+### Backend & Database
+* **[Node.js](https://nodejs.org/)** serves as the cross-platform JavaScript runtime environment that executes the backend service, providing high performance for asynchronous API operations.
+* **[Express](https://expressjs.com/)** is a minimal and flexible Node.js web application framework. It serves as the middleware layer for the Recurrly backend, handling routing, API requests, and seamless integration with the database.
+* **[MongoDB](https://www.mongodb.com/)** is a NoSQL database used to store user data and subscription details. Its flexible document-based structure is ideal for handling the evolving data needs of a subscription management platform.
 
-- **[Drizzle ORM](https://orm.drizzle.team/docs/overview)** is a lightweight and performant TypeScript ORM designed with developer experience in mind. It provides a seamless interface between application code and database operations while maintaining high performance and reliability.
-
-- **[Neon](https://neon.com/)** is a fully managed, serverless PostgreSQL database platform. It offers features like instant provisioning, autoscaling, and database branching, enabling developers to build scalable applications without managing infrastructure.
-
-- **[Next.js](https://nextjs.org/docs)** is a powerful React framework for building full-stack web applications. It simplifies development with features like server-side rendering, static site generation, and API routes, enabling developers to focus on building products and shipping quickly.
-
-- **[PostgreSQL](https://www.postgresql.org/)** is a powerful, open-source relational database system known for its reliability, data integrity, and robust feature set. It supports advanced data types, full ACID compliance, and extensibility, making it suitable for a wide range of applications.
-
-- **[Stripe](https://stripe.com/)** is a payment gateway that enables businesses to accept, process, and manage various payment methods, such as credit cards, debit cards, and digital wallets, in a secure and efficient manner. It simplifies the payment process for developers and businesses alike.
-
-- **[TypeScript](https://www.typescriptlang.org/)** is a superset of JavaScript that adds static typing, providing better tooling, code quality, and error detection for developers. It is ideal for building large-scale applications and enhances the development experience.
-
-- **[Zustand](https://zustand-demo.pmnd.rs)** is a minimal, hook-based state management library for React. It lets you manage global state with zero boilerplate, no context providers, and excellent performance through selective state subscriptions.
+### Infrastructure & Tools
+* **[Clerk](https://jsm.dev/nativesub-clerk)** provides a complete suite of authentication and user management tools. It handles secure sign-ins, session management, and integrates seamlessly with billing workflows.
+* **[PostHog](https://jsm.dev/nativesub-posthog)** is an all-in-one platform for product analytics. It helps track user behavior, feature usage, and conversion rates, giving you the data needed to improve the app based on real-world usage.
+* **[CodeRabbit](https://jsm.dev/nativesub-coderabbit)** is an AI-powered code review assistant. It provides deep, context-aware feedback on pull requests, helping maintain high code quality and catching potential bugs before they reach production.
 
 ## <a name="features">🔋 Features</a>
 
-👉 **Landing Page**: A fast, engaging homepage that introduces your brand and products with smooth animations and clear calls to action.
+## ✨ Key Features
 
-👉 **Product Listing Page**: Browse all products with filters, sorting, and real-time availability—powered by Devin AI-generated content for dynamic updates.
+👉 **Subscription Dashboard**: A centralized hub to monitor all your recurring expenses at a glance, featuring a clean and intuitive interface built with NativeWind.
 
-👉 **Auth Pages**: Secure and seamless user signup, login, and password recovery using Better Auth, ensuring smooth access without backend hassles.
+👉 **Active & Inactive Tracking**: Easily toggle and categorize your subscriptions to see exactly where your money is going and identify unused services you can cancel.
 
-👉 **Product Details Page**: Detailed product info, images, and reviews with AI-enhanced descriptions to help customers make confident buying decisions.
+👉 **Scheduled Email Reminders**: Never get surprised by a renewal again with automated, timely notifications that alert users before a billing date arrives.
 
-👉 **Cart Page**: Intuitive cart management allowing users to add, remove, and update quantities, with instant price recalculations and persistent state via Zustand.
+👉 **Secure Authentication**: A seamless onboarding experience using Clerk, providing enterprise-grade security for user sign-ups, logins, and profile management.
 
-👉 **Order Page**: Track order history and status with reliable data stored in PostgreSQL (Neon), plus secure payments handled by Stripe integration.
+👉 **Native Navigation**: A custom-built tab navigation system designed to provide a fluid, high-performance experience that feels native to both iOS and Android.
+
+👉 **Full-Stack Data Persistence**: Reliable storage for all your subscription data, powered by a high-performance Node.js/Express backend and MongoDB.
+
+👉 **Monetization Ready**: Integrated billing and payment flows, allowing you to transition from a free tool to a paid service with professional-grade infrastructure.
+
+👉 **Production-Grade Analytics**: Real-time insights into user behavior and app performance via PostHog, ensuring every feature is optimized for the best user experience.
 
 And many more, including code architecture and reusability.
 
@@ -98,15 +108,54 @@ git clone
 cd
 ```
 
-**Installation**
+## Installation
 
-Install the project dependencies using npm:
+ Before you begin developing your app, it's essential to set up Expo and initialize your project.
+  - Start by creating a folder for your application. Then, open your terminal and navigate to that folder. To create an Expo app, you can use:
 
-```bash
-npm install
-```
+  ```bash
+  npx create-expo-app@latest
+  ```
 
-**Set Up Environment Variables**
+  By default, you get a TypeScript Expo app with Expo Router configured.
+
+  If you want a different starter (blank JS, blank TS, tabs, etc.), you can run:
+
+  ```bash
+  npx create-expo-app@latest --template
+  ```
+
+  And pick whichever template fits your workflow.
+
+  Since this repository is already created, install dependencies and start the development server:
+
+  ```bash
+  npm install
+  npx expo start
+  ```
+
+  `npx expo start` means "download (if needed) and execute Expo locally." It starts Metro Bundler, which compiles and serves your React Native code.
+
+  Once it starts, you'll see a QR code and shortcut keys in the terminal. For example:
+  - `a` opens Android
+  - `i` opens iOS Simulator (macOS)
+  - `w` opens web
+  - `r` reloads
+  - `m` opens dev menu in Expo Go / device context
+
+  We don't need to rely on heavy IDE tooling to begin. The easiest flow is using Expo Go on your phone.
+
+  Expo Go is a mobile app that lets you test React Native apps quickly by scanning a QR code. It's fast, beginner-friendly, and supports real-time updates while you code.
+
+  Open Google Play Store or Apple App Store, install **Expo Go**, then come back here and scan the QR code.
+
+  ### iOS VPN Turn OFF, and network permissions…
+
+  Now open Expo Go and scan the QR code from the terminal. The app should compile and launch.
+
+  If all is good, you'll see the starter app with two tabs: Home and Explore.
+
+## Set Up Environment Variables
 
 Create a new file named `.env` in the root of your project and add the following content:
 
@@ -126,9 +175,9 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to view the 
 
 ## <a name="links">🔗 Assets</a>
 
-Assets and snippets used in the project can be found in the **[video kit]()**.
+Assets and snippets used in the project can be found in the **[video kit](https://jsmastery.com/video-kit/906b6d70-b862-4257-85dd-56b3ba76db59)**.
 
-<a href="" target="_blank">
+<a href="https://jsmastery.com/video-kit/906b6d70-b862-4257-85dd-56b3ba76db59" target="_blank">
   <img src="public/readme/readme-videokit.webp" alt="Video Kit Banner">
 </a>
 
@@ -139,6 +188,6 @@ Assets and snippets used in the project can be found in the **[video kit]()**.
 Enjoyed creating this project? Dive deeper into our PRO courses for a richer learning adventure. They're packed with
 detailed explanations, cool features, and exercises to boost your skills. Give it a go!
 
-<a href="" target="_blank">
+<a href="https://jsm.dev/nativesub-jsm" target="_blank">
   <img src="public/readme/readme-jsmpro.webp" alt="Project Banner">
 </a>
