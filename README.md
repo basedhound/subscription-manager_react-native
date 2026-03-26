@@ -104,8 +104,8 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone
-cd
+git clone https://github.com/adrianhajdin/react-native-recurrly.git
+cd react-native-recurrly
 ```
 
 ## Installation
@@ -160,7 +160,9 @@ cd
 Create a new file named `.env` in the root of your project and add the following content:
 
 ```env
-
+# Clerk Authentication
+# Get your publishable key from https://dashboard.clerk.com/~/api-keys
+EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_live_REPLACE_ME
 ```
 
 Replace the placeholder values with your real credentials. You can get these by signing up at: [**Example**](https://jsm.dev/example).
