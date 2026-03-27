@@ -1,7 +1,7 @@
 <div align="center">
   <br />
     <a href="" target="_blank">
-      <img src="public/readme/readme-hero.webp" alt="Project Banner">
+      <img src="assets/readme/readme-hero.webp" alt="Project Banner">
     </a>
   <br />
 
@@ -17,7 +17,7 @@
 <img src="https://img.shields.io/badge/-CodeRabbit-FF5100?style=for-the-badge&logo=coderabbit&logoColor=white" />
 </div>
 
-  <h3 align="center">Subscription Management | Mobile Appliction</h3>
+  <h3 align="center">Subscription Management | React Native Appliction</h3>
 
    <div align="center">
      Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/watch?v=XUkNR-JfHwo" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
@@ -43,7 +43,7 @@ If you prefer visual learning, this is the perfect resource for you. Follow our 
 
 ## <a name="introduction">✨ Introduction</a>
 
-Recurrly is a full-stack subscription management application designed to help users monitor and control their recurring expenses in one centralized hub. Built using a modern "Next.js-style" mobile architecture, the app features robust subscription tracking for both active and inactive charges, automated email reminders to ensure users never miss a billing date, and a custom-built native navigation system. Beyond its core utility, Recurrly is a production-ready solution integrated with a Node.js/Express/MongoDB backend, featuring Clerk-powered authentication and full monetization capabilities, all optimized for deployment on the Apple App Store and Google Play Store via EAS.
+Recurrly is a full-stack subscription management application designed to help users monitor and control their recurring expenses in one centralized hub. Built using a modern "Next.js-style" mobile architecture, the app features robust subscription tracking for both active and inactive charges, automated email reminders to ensure users never miss a billing date.
 
 If you're getting started and need assistance or face any bugs, join our active Discord community with over **50k+** members. It's a place where people help each other out.
 
@@ -159,13 +159,14 @@ cd react-native-recurrly
 
 Create a new file named `.env` in the root of your project and add the following content:
 
+
 ```env
-# Clerk Authentication
-# Get your publishable key from https://dashboard.clerk.com/~/api-keys
-EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_live_REPLACE_ME
+EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY=
+POSTHOG_PROJECT_TOKEN=
+POSTHOG_HOST=https://us.i.posthog.com
 ```
 
-Replace the placeholder values with your real credentials. You can get these by signing up at: [**Example**](https://jsm.dev/example).
+Replace the placeholder values with your real credentials. You can get these by signing up at: [**Expo**](https://jsm.dev/nativesub-exp), [**PostHog**](https://jsm.dev/nativesub-posthog) .
 
 **Running the Project**
 
@@ -180,7 +181,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to view the 
 Assets and snippets used in the project can be found in the **[video kit](https://jsmastery.com/video-kit/906b6d70-b862-4257-85dd-56b3ba76db59)**.
 
 <a href="https://jsmastery.com/video-kit/906b6d70-b862-4257-85dd-56b3ba76db59" target="_blank">
-  <img src="public/readme/readme-videokit.webp" alt="Video Kit Banner">
+  <img src="assets/readme/readme-videokit.webp" alt="Video Kit Banner">
 </a>
 
 ## <a name="more">🚀 More</a>
@@ -191,5 +192,5 @@ Enjoyed creating this project? Dive deeper into our PRO courses for a richer lea
 detailed explanations, cool features, and exercises to boost your skills. Give it a go!
 
 <a href="https://jsm.dev/nativesub-jsm" target="_blank">
-  <img src="public/readme/readme-jsmpro.webp" alt="Project Banner">
+  <img src="assets/readme/readme-jsmpro.webp" alt="Project Banner">
 </a>
