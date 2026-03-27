@@ -1,6 +1,6 @@
 <div align="center">
   <br />
-    <a href="" target="_blank">
+    <a href="https://youtu.be/4nVoLX2taFg" target="_blank">
       <img src="assets/readme/readme-hero.webp" alt="Project Banner">
     </a>
   <br />
@@ -17,7 +17,7 @@
 <img src="https://img.shields.io/badge/-CodeRabbit-FF5100?style=for-the-badge&logo=coderabbit&logoColor=white" />
 </div>
 
-  <h3 align="center">Subscription Management | React Native Appliction</h3>
+  <h3 align="center">Subscription Management | React Native App</h3>
 
    <div align="center">
      Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/watch?v=XUkNR-JfHwo" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
@@ -39,7 +39,7 @@ This repository contains the code corresponding to an in-depth tutorial availabl
 
 If you prefer visual learning, this is the perfect resource for you. Follow our tutorial to learn how to build projects like these step-by-step in a beginner-friendly manner!
 
-<a href="" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/1736fca5-a031-4854-8c09-bc110e3bc16d" /></a>
+<a href="https://youtu.be/4nVoLX2taFg" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/1736fca5-a031-4854-8c09-bc110e3bc16d" /></a>
 
 ## <a name="introduction">✨ Introduction</a>
 
@@ -104,8 +104,7 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone https://github.com/adrianhajdin/react-native-recurrly.git
-cd react-native-recurrly
+git clone [git remote URL]
 ```
 
 ## Installation
